@@ -1,0 +1,25 @@
+{
+    "name": "natanael-oliveira/dot-env",
+    "description": "A simple library to manage environment variables in PHP",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "NatanaelOliveira\\DotEnv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Natanael Oliveira",
+            "email": "natan.kamui@gmail.com",
+            "homepage": "https://www.linkedin.com/in/natanael-oliveira-aguiar/",
+            "role": "Tech Lead"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3.5"
+    }
+}
