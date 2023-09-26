@@ -2,6 +2,12 @@
 
 Simplifying Environment Variable Management.
 
+## Install
+
+```shell
+composer require natanael-oliveira/dot-env
+```
+
 ## Example of use
 
 A new `.env` file will be created at the root of your project, you can manually insert your environment variables or define them dynamically using the `set()` method:
